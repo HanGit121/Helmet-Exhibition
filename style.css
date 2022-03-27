@@ -1,0 +1,100 @@
+*{
+    margin:0;padding:0;box-sizing:border-box;
+}
+
+ul,ol{
+    list-style: none;/*消除无序排列的小圆点*/
+}
+
+img{
+    max-width:100%;/*图片最大宽度*/
+}
+
+.clearfix::after{
+    content:'';
+    display: block;
+    clear: both;
+}
+
+.logo{
+    background: rgb(247, 242, 242);
+    display:inline-block;
+    float: left;
+}
+
+.logo > img{
+    height:100px;
+    vertical-align: top;/*去掉下方多余背景色*/
+}
+
+.nav{
+   float: right; 
+}
+
+ul > li{
+    float:left;
+    padding:4px 4em;/*高像素px 宽用字em*/
+    line-height: 32px;
+    margin-top: 29px;
+    font-size:20px;
+}
+
+ul > input{
+    line-height: 20px;
+    margin-top: 40px;
+}
+
+ul{
+    display:inline-block;/*尽量的窄*/
+}
+
+header{
+    background:rgb(31, 46, 109);
+    color:white;
+}
+
+.content{
+    width:1270px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.content>aside{
+    width:200px;
+    height:300px;
+    font-size: 20px;
+    float: left;
+    background:#ccc;
+}
+.content > main > img{
+    height:300px;
+    width:570px;
+    float: left;
+
+}
+
+.content > .ad > img{
+    height: 300px;
+    width:500px;
+    float: left;
+}
+
+.imageList{
+    width:1270px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:10px;
+}
+
+.imageList > .x{
+    margin-right:-14px;
+}
+
+.imageList > .x >  .imges > img{
+    width:307px;
+    height:307px;
+    background:white;
+    float: left;
+    margin-bottom: 10px;
+    margin-right:14px;
+}
